@@ -39,12 +39,13 @@ public class DemoTestObj {
         }
     }
 
-    @AfterEach
-    void addAttachments() {
-        Attach.screenshotAs("Last screenshot");
-        Attach.pageSource();
-        Attach.browserConsoleLogs();
-    }
+    //  @AfterEach
+    //  void addAttachments() {
+        //   Attach.screenshotAs("Last screenshot");
+        //  Attach.pageSource();
+        //  Attach.browserConsoleLogs();
+       // Attach.addVideo();
+        // }
 
     @Test
     @Tag("choose_properties")
