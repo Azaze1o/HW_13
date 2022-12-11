@@ -44,7 +44,6 @@ public class DemoTestObj {
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
         Attach.browserConsoleLogs();
-        Attach.addVideo();
     }
 
     @Test
